@@ -17,6 +17,16 @@
     background: rgb(82, 195, 3);
 }
 
+.btn-secondary {
+    border-radius: 8px;
+    border: none;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 20px;
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
 /* hero section styles */
 .hero {
@@ -63,3 +73,64 @@
     margin-bottom: 20px;
     opacity: 0.7;
 }
+
+
+
+/* card-box section styles */
+#card-box{
+    margin-bottom: 100px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-subtitle {
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.card {
+    max-width: 272px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card img {
+    max-width: 272px;
+    margin-bottom: 20px;
+}
+
+.card-heading {
+    color: rgb(16, 16, 16);
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card-paragraph {
+    color: rgb(16, 16, 16);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-btn{
+    text-align: center;
+}
+
