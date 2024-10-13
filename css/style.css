@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* shared css styles */
 * {
     margin: 0;
     padding: 0;
@@ -17,16 +18,7 @@
     background: rgb(82, 195, 3);
 }
 
-.btn-secondary {
-    border-radius: 8px;
-    border: none;
-    background: rgba(82, 195, 3, 0.15);
-    padding: 10px 20px;
-    color: rgb(16, 16, 16);
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
+
 
 /* hero section styles */
 .hero {
@@ -77,7 +69,7 @@
 
 
 /* card-box section styles */
-#card-box{
+#card-box-section {
     margin-bottom: 100px;
 }
 
@@ -85,11 +77,12 @@
     text-align: center;
 }
 
-.card-container{
+.card-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
 .card-subtitle {
     color: rgb(16, 16, 16);
     font-size: 16px;
@@ -117,6 +110,17 @@
     margin-bottom: 20px;
 }
 
+.btn-secondary {
+    border-radius: 8px;
+    border: none;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 20px;
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 .card-heading {
     color: rgb(16, 16, 16);
     font-size: 26px;
@@ -130,7 +134,51 @@
     font-weight: 400;
 }
 
-.card-btn{
+.card-btn {
     text-align: center;
 }
 
+/* about-section styles */
+#about-us-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-photo img {
+    max-width: 615px;
+}
+
+.about-content {
+    max-width: 614px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-title {
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.about-para1 {
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+
+.about-para2 {
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
